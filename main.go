@@ -22,7 +22,7 @@ import (
 var numberOf = flag.Int("num", 100, "number of subscribers")
 var spawnDelay = flag.Int("spawnDelay", 1, "time between dummy client starts")
 var autoFinishTime = flag.Int("autoFinishTime", 20, "automatically finish after all spawned")
-var onlyTimestamps = flag.Bool("onlyTimestamps", true, "only erite timestamps file")
+var onlyTimestamps = flag.Bool("onlyTimestamps", true, "only write timestamps file")
 
 // var startClientInterim = flag.Int("startClientInterim", 5, "interim time between client start in s")
 // var limitTimestamp = flag.Bool("limitTimestamp", true, "limit the timestamp to one client")
